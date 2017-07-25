@@ -295,6 +295,14 @@
 							<username>alessandro</username>
 							<password>admin</password>
 						</configuration>
+						<executions>
+							<execution>
+								<phase>install</phase>
+								<goals>
+									<goal>depoly</goal>
+								</goals>
+							</execution>
+						</executions>
 					</plugin>
 				</plugins>
 			</build>
