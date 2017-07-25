@@ -289,18 +289,18 @@
 						<groupId>org.jboss.as.plugins</groupId>
 						<artifactId>jboss-as-maven-plugin</artifactId>
 						<version>7.5.Final</version>
-						<configuration>
-							<hostname>127.0.0.1</hostname>
-							<port>8090</port>
-							<username>alessandro</username>
-							<password>admin</password>
-						</configuration>
 						<executions>
 							<execution>
 								<phase>install</phase>
 								<goals>
 									<goal>depoly</goal>
 								</goals>
+								<configuration>
+									<hostname>127.0.0.1</hostname>
+									<port>8090</port>
+									<username>alessandro</username>
+									<password>admin</password>
+								</configuration>
 							</execution>
 						</executions>
 					</plugin>
